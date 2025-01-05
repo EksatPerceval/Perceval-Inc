@@ -1,0 +1,123 @@
+body {
+    background-image: url('img/roberto-nickson-QeHeDJ6s0OM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    backdrop-filter: blur(3px);
+
+    color: #ececec;
+    font-family: Georgia, serif;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ececec;
+}
+
+a {
+    color: #ffd700;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+a:visited {
+    color: #B1B1B1;
+}
+
+a:hover, a:active {
+    color: #ffd700;
+}
+
+header {
+    padding: 1.5em;
+    text-align: center;
+    font-size: 2rem;
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-bottom: 2px solid #e0e0e0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    font-size: 1.8rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 1.5em 0;
+    text-align: center;
+    width: 100%;
+    font-size: 1.8rem;
+    position: sticky;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    border-top: 2px solid #e0e0e0;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 100%;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+
+    header, main {
+        padding: 1em;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    font-family: Georgia, serif;
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
