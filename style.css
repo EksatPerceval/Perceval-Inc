@@ -1,8 +1,11 @@
 body {
-    background-image: url('https://images.unsplash.com/photo-1619644862264-5395db5d92d9?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-image: url('img/roberto-nickson-QeHeDJ6s0OM-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-blend-mode: darken;
     backdrop-filter: blur(3px);
-
+    
     color: #ececec;
     font-family: Georgia, serif;
     font-size: 120%;
@@ -18,6 +21,7 @@ a {
     color: #ffd700;
     text-decoration: none;
     font-size: 1.8rem;
+    transition: color 0.3s ease;
 }
 
 a:visited {
@@ -72,6 +76,36 @@ footer {
     line-height: 1.6;
 }
 
+button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Georgia, serif;
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 @media (max-width: 600px) {
     body {
         font-size: 100%;
@@ -84,39 +118,5 @@ footer {
     header, main {
         padding: 1em;
     }
-
-    img {
-        width: 100%;
-        height: auto;
-    }
 }
-
-button {
-    background-color: #000000;
-    color: white;
-    border: none;
-    padding: 0.8em 1.5em;
-    border-radius: 5px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-button:hover {
-    background-color: #ffd700;
-    transform: translateY(-2px);
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-}
-
-button {
-    font-family: Georgia, serif;
-}
-
-button:active {
-    transform: translateY(0);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
 
