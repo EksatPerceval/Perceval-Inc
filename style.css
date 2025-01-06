@@ -21,7 +21,6 @@ a {
     color: #ffd700;
     text-decoration: none;
     font-size: 1.8rem;
-    transition: color 0.3s ease;
 }
 
 a:visited {
@@ -108,7 +107,7 @@ img {
 
 @media (max-width: 600px) {
     body {
-        font-size: 100%;
+        font-size: 16px;
     }
 
     a {
@@ -119,4 +118,5 @@ img {
         padding: 1em;
     }
 }
+
 
