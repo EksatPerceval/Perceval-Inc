@@ -9,6 +9,68 @@
     <title>Perceval Incorporated</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4lBafk1sIL7qhQKc8s5JzE1jySmBBOpHRlA&s" type="icon">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+        }
+
+        header {
+            padding: 30px;
+            text-align: center;
+        }
+
+        nav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #111;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        section {
+            flex: 50%;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 600px) {
+            nav li {
+                float: none;
+                width: 100%;
+            }
+        }
+    </style>
 </head>
 
 <body>
